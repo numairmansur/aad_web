@@ -1,0 +1,29 @@
+@import url("style.css");
+
+#wrapper {
+    width:100%;
+}
+
+#leftWrapper {
+    display:none;
+}
+
+#logoWrapper {
+    display:none;
+}
+
+#rightWrapper {
+    width: 100%;
+}
+
+#breadcrumbs {
+    display:none;
+}
+
+#footer {
+    display:none;
+}
+
+#header{
+    display: none;
+}
