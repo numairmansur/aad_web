@@ -74,6 +74,13 @@ pre {
     padding: 3px;
 }
 
+#spacing {
+    margin-top: 5px;
+    background: black;
+    padding: 5px 5px 5px 5px;
+}
+
+
 #menucontainer {
     padding: 0px 23px 0px 23px;
     background: #A2A2A2;
@@ -146,19 +153,14 @@ pre {
 #newscontainer {
     
     border: solid 0.5px #B0B0B0;
-    padding: 0px 0px 2px 0px;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 5px;
 }
 
-#newscontainer li{
-    line-height: 100%;
-    font-size: 13.5px;
-    font-family: "Cambria", Georgia;
-
-}
 
 #newsstory{
-    margin-top: 5px;
-    padding: 7px 5px 7px 0px;
+    margin-top: 0px;
+    padding: 5px 5px 3px 0px;
     background: #D8D8D8;
     position: relative;
     display: block;
@@ -168,11 +170,11 @@ pre {
 
 #newstext {
     margin-right: 0px;
-    margin-left: 100px;
+    margin-left: 87px;
     position: relative;
     
     margin-top: 0px;
-    padding: 0px 5px 10px  0px;
+    padding: 0px 5px 0px  0px;
     font-size: 13px;
 
 
@@ -182,10 +184,10 @@ pre {
     
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 8px;
+    margin-left: 12px;
     padding: 0px;
-    width: 85px;
-    height: 85px;
+    width: 60px;
+    height: 60px;
     position: relative;
     float: left;
 }
