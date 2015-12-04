@@ -15,9 +15,7 @@ a {
     color: #2A6EBB; 
 }
 
-a:visited {
-    color: #2A6EBB;
-}
+
 
 a:hover {
     text-decoration: underline;
@@ -81,60 +79,59 @@ pre {
 }
 
 
-#menucontainer {
-    padding: 0px 23px 0px 23px;
-    background: #A2A2A2;
-    height: 25px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-
-
+.menu {
+    background-color: #A2A2A2;
+    padding-top: 2px;
 }
 
-#menucontainer li {
-    width: 173px;
-    float: left;
-    background: #A2A2A2;
-    height: 25px;
-    margin-right: 4px;
-    text-align: center;
-    color: #FFFFFF;
-    line-height: 25px;
-    list-style-type: none;
-}
-
-#menucontainer ul{
-    background: blue;
-    padding: 0px;
-    margin: 2px 0px 0px 0px;
-}
-
-#menucontainer li a{
+.menubutton {
+    width: 24.65%;
+    background-color: #A2A2A2;
     color: white;
-    font-size: 180%;
-    font-family: "Cambria", Georgia;
-
-
-}
-
-
-#menucontainer li a:hover {
-    background: #F2F3F1;
-    width: 172px;
-    float: left;
-    height: 25px;
-    margin-right: 4px;
+    font-weight: normal;
+    font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: Cambria, Georgia;
+    font-size:14pt;
     text-align: center;
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    margin: 0px;
+    border: 0px;
+}
+
+.menuselected {
+    width: 24.65%;
     color: black;
-    line-height: 25px;
+    font-weight: normal;
+    font-family: Cambria, Georgia;
+    font-size:14pt;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+a.menubutton, a.menubutton:visited {
+    color: white;
+}
+a.menuselected:hover {
     text-decoration: none;
-
 }
 
-#menucontainer li a:active {
-    background: #F2F3F1;
+a.menubutton:hover{
+    text-decoration: none;
+    background-color: white;
     color: black;
 }
+
 
 
 
