@@ -91,7 +91,7 @@ pre {
     font-weight: normal;
     font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-family: Cambria, Georgia;
-    font-size:12pt;
+    font-size:13pt;
     text-align: center;
     display: inline-block;
     padding-top: 0px;
@@ -104,13 +104,13 @@ pre {
 
 .menuselected {
     width: 24.65%;
-    color: white;
+    color: black;
     font-weight: normal;
     font-family: Cambria, Georgia;
     font-size:14pt;
     text-align: center;
     display: inline-block;
-    background-color: #003592;
+    background-color: #F2F3F1;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
