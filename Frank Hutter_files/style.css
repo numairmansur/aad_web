@@ -81,7 +81,7 @@ pre {
 
 .menu {
     background-color: #A2A2A2;
-    padding-top: 2px;
+    padding-top: 0px;
 }
 
 .menubutton {
@@ -107,7 +107,7 @@ pre {
     color: black;
     font-weight: normal;
     font-family: Cambria, Georgia;
-    font-size:14pt;
+    font-size:13pt;
     text-align: center;
     display: inline-block;
     background-color: #F2F3F1;
