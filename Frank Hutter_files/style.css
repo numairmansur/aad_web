@@ -80,18 +80,16 @@ pre {
 
 
 .menu {
-    background-color: #A2A2A2;
-    padding-top: 0px;
+    background-color: #9A9A9A;
+    padding-top: 3px;
 }
 
 .menubutton {
     width: 24.65%;
-    background-color: #A2A2A2;
+    background-color: #9A9A9A;
     color: white;
     font-weight: normal;
-    font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-family: Cambria, Georgia;
-    font-size:13pt;
+    font-size:12.5pt;
     text-align: center;
     display: inline-block;
     padding-top: 0px;
@@ -106,8 +104,7 @@ pre {
     width: 24.65%;
     color: black;
     font-weight: normal;
-    font-family: Cambria, Georgia;
-    font-size:13pt;
+    font-size:12.5pt;
     text-align: center;
     display: inline-block;
     background-color: #F2F3F1;
