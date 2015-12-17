@@ -104,13 +104,13 @@ pre {
 
 .menuselected {
     width: 24.65%;
-    color: black;
+    color: white;
     font-weight: normal;
     font-family: Cambria, Georgia;
     font-size:14pt;
     text-align: center;
     display: inline-block;
-    background-color: #F2F3F1;
+    background-color: #003592;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
