@@ -15,7 +15,9 @@ a {
     color: #2A6EBB; 
 }
 
-
+a:visited {
+    color: #2A6EBB;
+}
 
 a:hover {
     text-decoration: underline;
@@ -72,24 +74,23 @@ pre {
     padding: 3px;
 }
 
-#spacing {
-    margin-top: 5px;
-    background: black;
-    padding: 5px 5px 5px 5px;
-}
 
 
-.menu {
-    background-color: #9A9A9A;
-    padding-top: 3px;
+/* Menu bar added by numair */
+
+.menu 
+{
+    background-color: #CACAC8;
+    margin-bottom: 2px;
 }
+
 
 .menubutton {
-    width: 24.65%;
-    background-color: #9A9A9A;
-    color: white;
+    width: 24.8%;
+    background-color: #CACAC8;
+    color: black;
     font-weight: normal;
-    font-size:12.5pt;
+    font-size:11.3pt;
     text-align: center;
     display: inline-block;
     padding-top: 0px;
@@ -97,40 +98,63 @@ pre {
     padding-left: 0px;
     padding-right: 0px; 
     margin: 0px;
-    border: 0px;
+    border-left: 2px solid white;
+    margin-left: -2px;
+    margin-right: -2px;
 }
 
 .menuselected {
-    width: 24.65%;
-    color: black;
+    width: 24.8%;
+    color: white;
     font-weight: normal;
-    font-size:12.5pt;
+    font-size:11.3pt;
     text-align: center;
     display: inline-block;
-    background-color: #F2F3F1;
+    background-color: #CACAC8;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
     margin: 0px;
     border: 0px;
+    margin-right:-2px;
+    margin-left: -2px;
+    border-left: 2px solid white;
 }
 
 a.menubutton, a.menubutton:visited {
-    color: white;
+    color: black;
 }
+a.menuselected
+{
+    color: #ffffff;
+    background-color: #003592;
+}
+
 a.menuselected:hover {
     text-decoration: none;
+    color: white;
 }
 
 a.menubutton:hover{
     text-decoration: none;
-    background-color: #F2F3F1;
+    background-color: #003592;
+    color: #ffffff;
+}
+
+a.menu:visited{
     color: black;
 }
 
 
 
+
+
+
+/* Menu bar ends */
+
+
+/*News content stylind added by numair */
 
 #newsheader {
     position: relative;
@@ -179,6 +203,9 @@ a.menubutton:hover{
     position: relative;
     float: left;
 }
+
+/*News header styling ends */
+
 
 
 #wrapper {
@@ -279,7 +306,6 @@ a.menubutton:hover{
     padding: 0px 17px 10px !important;
     width: 720px !important;
 }
-
 
 #title-uni {
     left: 444px;
@@ -496,7 +522,7 @@ blink {
 #contactData dd {
     float: left;
     margin: 0;
-    padding: 0 0 1.5px 5px;
+    padding: 0 0 2px 5px;
     width: 413px;
 }
 
